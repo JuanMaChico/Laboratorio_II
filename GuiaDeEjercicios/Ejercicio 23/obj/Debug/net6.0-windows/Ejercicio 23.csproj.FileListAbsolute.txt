@@ -1,0 +1,20 @@
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 23\bin\Debug\net6.0-windows\Ejercicio 23.exe
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 23\bin\Debug\net6.0-windows\Ejercicio 23.deps.json
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 23\bin\Debug\net6.0-windows\Ejercicio 23.runtimeconfig.json
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 23\bin\Debug\net6.0-windows\Ejercicio 23.dll
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 23\bin\Debug\net6.0-windows\Ejercicio 23.pdb
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 23\obj\Debug\net6.0-windows\Ejercicio 23.csproj.AssemblyReference.cache
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 23\obj\Debug\net6.0-windows\Ejercicio 23.csproj.GenerateResource.cache
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 23\obj\Debug\net6.0-windows\Ejercicio 23.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 23\obj\Debug\net6.0-windows\Ejercicio 23.AssemblyInfoInputs.cache
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 23\obj\Debug\net6.0-windows\Ejercicio 23.AssemblyInfo.cs
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 23\obj\Debug\net6.0-windows\Ejercicio 23.csproj.CoreCompileInputs.cache
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 23\obj\Debug\net6.0-windows\Ejercicio 23.dll
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 23\obj\Debug\net6.0-windows\refint\Ejercicio 23.dll
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 23\obj\Debug\net6.0-windows\Ejercicio 23.pdb
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 23\obj\Debug\net6.0-windows\Ejercicio 23.genruntimeconfig.cache
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 23\obj\Debug\net6.0-windows\ref\Ejercicio 23.dll
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 23\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 23\obj\Debug\net6.0-windows\Ejercicio_23.Properties.Resources.resources
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 23\obj\Debug\net6.0-windows\Ejercicio 23.csproj.CopyComplete
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 23\obj\Debug\net6.0-windows\Ejercicio_23.Cotizador.resources
