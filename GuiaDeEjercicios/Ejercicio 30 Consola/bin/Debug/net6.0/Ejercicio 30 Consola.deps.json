@@ -1,0 +1,33 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Ejercicio 30 Consola/1.0.0": {
+        "runtime": {
+          "Ejercicio 30 Consola.dll": {}
+        }
+      },
+      "Ejercicio 30/1.0.0": {
+        "runtime": {
+          "Ejercicio 30.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ejercicio 30 Consola/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ejercicio 30/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

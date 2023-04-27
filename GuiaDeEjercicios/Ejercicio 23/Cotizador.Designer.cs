@@ -52,10 +52,10 @@
 			label5 =  new Label() ;
 			label6 =  new Label() ;
 			label7 =  new Label() ;
-			button1 =  new Button() ;
-			button2 =  new Button() ;
-			button3 =  new Button() ;
-			button4 =  new Button() ;
+			btnConvertEuros =  new Button() ;
+			btnConvertDolares =  new Button() ;
+			btnConvertPesos =  new Button() ;
+			btnLockCotizacion =  new FontAwesome.Sharp.IconButton() ;
 			SuspendLayout();
 			// 
 			// printPreviewDialog1
@@ -71,29 +71,38 @@
 			// txtEuros
 			// 
 			txtEuros.Location =  new Point(63, 91) ;
+			txtEuros.MaxLength =  12 ;
 			txtEuros.Name =  "txtEuros" ;
 			txtEuros.Size =  new Size(118, 23) ;
 			txtEuros.TabIndex =  4 ;
+			txtEuros.KeyPress +=  Cotizador_KeyPress ;
+			txtEuros.Leave +=  txtEuros_Leave ;
 			// 
 			// txtDolares
 			// 
 			txtDolares.Location =  new Point(63, 122) ;
+			txtDolares.MaxLength =  12 ;
 			txtDolares.Name =  "txtDolares" ;
 			txtDolares.Size =  new Size(118, 23) ;
 			txtDolares.TabIndex =  5 ;
-			txtDolares.TextChanged +=  textBox6_TextChanged ;
+			txtDolares.KeyPress +=  Cotizador_KeyPress ;
+			txtDolares.Leave +=  txtDolares_Leave ;
 			// 
 			// txtPesos
 			// 
 			txtPesos.Location =  new Point(63, 153) ;
+			txtPesos.MaxLength =  12 ;
 			txtPesos.Name =  "txtPesos" ;
 			txtPesos.Size =  new Size(118, 23) ;
 			txtPesos.TabIndex =  6 ;
+			txtPesos.KeyPress +=  Cotizador_KeyPress ;
+			txtPesos.Leave +=  txtPesos_Leave ;
 			// 
 			// txtResultPesosEuro
 			// 
 			txtResultPesosEuro.Location =  new Point(268, 154) ;
 			txtResultPesosEuro.Name =  "txtResultPesosEuro" ;
+			txtResultPesosEuro.ReadOnly =  true ;
 			txtResultPesosEuro.Size =  new Size(118, 23) ;
 			txtResultPesosEuro.TabIndex =  9 ;
 			// 
@@ -101,6 +110,7 @@
 			// 
 			txtResultDolarEuro.Location =  new Point(268, 123) ;
 			txtResultDolarEuro.Name =  "txtResultDolarEuro" ;
+			txtResultDolarEuro.ReadOnly =  true ;
 			txtResultDolarEuro.Size =  new Size(118, 23) ;
 			txtResultDolarEuro.TabIndex =  8 ;
 			// 
@@ -108,6 +118,7 @@
 			// 
 			txtResultEurosEuros.Location =  new Point(268, 92) ;
 			txtResultEurosEuros.Name =  "txtResultEurosEuros" ;
+			txtResultEurosEuros.ReadOnly =  true ;
 			txtResultEurosEuros.Size =  new Size(118, 23) ;
 			txtResultEurosEuros.TabIndex =  7 ;
 			// 
@@ -115,6 +126,7 @@
 			// 
 			txtResultPesosDolar.Location =  new Point(392, 154) ;
 			txtResultPesosDolar.Name =  "txtResultPesosDolar" ;
+			txtResultPesosDolar.ReadOnly =  true ;
 			txtResultPesosDolar.Size =  new Size(118, 23) ;
 			txtResultPesosDolar.TabIndex =  12 ;
 			// 
@@ -122,6 +134,7 @@
 			// 
 			txtResultDolarDolar.Location =  new Point(392, 123) ;
 			txtResultDolarDolar.Name =  "txtResultDolarDolar" ;
+			txtResultDolarDolar.ReadOnly =  true ;
 			txtResultDolarDolar.Size =  new Size(118, 23) ;
 			txtResultDolarDolar.TabIndex =  11 ;
 			// 
@@ -129,6 +142,7 @@
 			// 
 			txtResultEurosDolar.Location =  new Point(392, 92) ;
 			txtResultEurosDolar.Name =  "txtResultEurosDolar" ;
+			txtResultEurosDolar.ReadOnly =  true ;
 			txtResultEurosDolar.Size =  new Size(118, 23) ;
 			txtResultEurosDolar.TabIndex =  10 ;
 			// 
@@ -136,6 +150,7 @@
 			// 
 			txtResultPesosPesos.Location =  new Point(512, 154) ;
 			txtResultPesosPesos.Name =  "txtResultPesosPesos" ;
+			txtResultPesosPesos.ReadOnly =  true ;
 			txtResultPesosPesos.Size =  new Size(118, 23) ;
 			txtResultPesosPesos.TabIndex =  15 ;
 			// 
@@ -143,6 +158,7 @@
 			// 
 			txtResultDolarPesos.Location =  new Point(512, 123) ;
 			txtResultDolarPesos.Name =  "txtResultDolarPesos" ;
+			txtResultDolarPesos.ReadOnly =  true ;
 			txtResultDolarPesos.Size =  new Size(118, 23) ;
 			txtResultDolarPesos.TabIndex =  14 ;
 			// 
@@ -150,29 +166,39 @@
 			// 
 			txtResultEurosPesos.Location =  new Point(512, 92) ;
 			txtResultEurosPesos.Name =  "txtResultEurosPesos" ;
+			txtResultEurosPesos.ReadOnly =  true ;
 			txtResultEurosPesos.Size =  new Size(118, 23) ;
 			txtResultEurosPesos.TabIndex =  13 ;
 			// 
 			// txtCotzPeso
 			// 
 			txtCotzPeso.Location =  new Point(512, 30) ;
+			txtCotzPeso.MaxLength =  12 ;
 			txtCotzPeso.Name =  "txtCotzPeso" ;
 			txtCotzPeso.Size =  new Size(118, 23) ;
 			txtCotzPeso.TabIndex =  18 ;
+			txtCotzPeso.Enter +=  txtCotzPeso_Enter ;
+			txtCotzPeso.KeyPress +=  Cotizador_KeyPress ;
 			// 
 			// txtCotzDolar
 			// 
 			txtCotzDolar.Location =  new Point(392, 30) ;
+			txtCotzDolar.MaxLength =  12 ;
 			txtCotzDolar.Name =  "txtCotzDolar" ;
 			txtCotzDolar.Size =  new Size(118, 23) ;
 			txtCotzDolar.TabIndex =  17 ;
+			txtCotzDolar.Enter +=  txtCotzDolar_Enter ;
+			txtCotzDolar.KeyPress +=  Cotizador_KeyPress ;
 			// 
 			// txtCotzEuro
 			// 
 			txtCotzEuro.Location =  new Point(268, 30) ;
+			txtCotzEuro.MaxLength =  12 ;
 			txtCotzEuro.Name =  "txtCotzEuro" ;
 			txtCotzEuro.Size =  new Size(118, 23) ;
 			txtCotzEuro.TabIndex =  16 ;
+			txtCotzEuro.Enter +=  txtCotzEuro_Enter ;
+			txtCotzEuro.KeyPress +=  Cotizador_KeyPress ;
 			// 
 			// lblEuro
 			// 
@@ -188,7 +214,7 @@
 			// 
 			lblCotizacion.AutoSize =  true ;
 			lblCotizacion.Font =  new Font("JetBrains Mono ExtraBold", 11.9999981F, FontStyle.Bold, GraphicsUnit.Point) ;
-			lblCotizacion.Location =  new Point(53, 29) ;
+			lblCotizacion.Location =  new Point(12, 32) ;
 			lblCotizacion.Name =  "lblCotizacion" ;
 			lblCotizacion.Size =  new Size(110, 21) ;
 			lblCotizacion.TabIndex =  20 ;
@@ -244,45 +270,49 @@
 			label7.TabIndex =  25 ;
 			label7.Text =  "Peso" ;
 			// 
-			// button1
+			// btnConvertEuros
 			// 
-			button1.Font =  new Font("JetBrains Mono SemiBold", 8.999999F, FontStyle.Bold, GraphicsUnit.Point) ;
-			button1.Location =  new Point(187, 91) ;
-			button1.Name =  "button1" ;
-			button1.Size =  new Size(75, 25) ;
-			button1.TabIndex =  26 ;
-			button1.Text =  "->" ;
-			button1.UseVisualStyleBackColor =  true ;
+			btnConvertEuros.Font =  new Font("JetBrains Mono SemiBold", 8.999999F, FontStyle.Bold, GraphicsUnit.Point) ;
+			btnConvertEuros.Location =  new Point(187, 91) ;
+			btnConvertEuros.Name =  "btnConvertEuros" ;
+			btnConvertEuros.Size =  new Size(75, 25) ;
+			btnConvertEuros.TabIndex =  26 ;
+			btnConvertEuros.Text =  "->" ;
+			btnConvertEuros.UseVisualStyleBackColor =  true ;
+			btnConvertEuros.Click +=  btnConvertEuros_Click ;
 			// 
-			// button2
+			// btnConvertDolares
 			// 
-			button2.Font =  new Font("JetBrains Mono SemiBold", 8.999999F, FontStyle.Bold, GraphicsUnit.Point) ;
-			button2.Location =  new Point(187, 121) ;
-			button2.Name =  "button2" ;
-			button2.Size =  new Size(75, 25) ;
-			button2.TabIndex =  27 ;
-			button2.Text =  "->" ;
-			button2.UseVisualStyleBackColor =  true ;
+			btnConvertDolares.Font =  new Font("JetBrains Mono SemiBold", 8.999999F, FontStyle.Bold, GraphicsUnit.Point) ;
+			btnConvertDolares.Location =  new Point(187, 121) ;
+			btnConvertDolares.Name =  "btnConvertDolares" ;
+			btnConvertDolares.Size =  new Size(75, 25) ;
+			btnConvertDolares.TabIndex =  27 ;
+			btnConvertDolares.Text =  "->" ;
+			btnConvertDolares.UseVisualStyleBackColor =  true ;
 			// 
-			// button3
+			// btnConvertPesos
 			// 
-			button3.Font =  new Font("JetBrains Mono SemiBold", 8.999999F, FontStyle.Bold, GraphicsUnit.Point) ;
-			button3.Location =  new Point(187, 154) ;
-			button3.Name =  "button3" ;
-			button3.Size =  new Size(75, 25) ;
-			button3.TabIndex =  28 ;
-			button3.Text =  "->" ;
-			button3.UseVisualStyleBackColor =  true ;
+			btnConvertPesos.Font =  new Font("JetBrains Mono SemiBold", 8.999999F, FontStyle.Bold, GraphicsUnit.Point) ;
+			btnConvertPesos.Location =  new Point(187, 154) ;
+			btnConvertPesos.Name =  "btnConvertPesos" ;
+			btnConvertPesos.Size =  new Size(75, 25) ;
+			btnConvertPesos.TabIndex =  28 ;
+			btnConvertPesos.Text =  "->" ;
+			btnConvertPesos.UseVisualStyleBackColor =  true ;
 			// 
-			// button4
+			// btnLockCotizacion
 			// 
-			button4.Font =  new Font("JetBrains Mono SemiBold", 8.999999F, FontStyle.Bold, GraphicsUnit.Point) ;
-			button4.Location =  new Point(187, 21) ;
-			button4.Name =  "button4" ;
-			button4.Size =  new Size(75, 41) ;
-			button4.TabIndex =  29 ;
-			button4.Text =  "->" ;
-			button4.UseVisualStyleBackColor =  true ;
+			btnLockCotizacion.IconChar =  FontAwesome.Sharp.IconChar.Lock ;
+			btnLockCotizacion.IconColor =  Color.Black ;
+			btnLockCotizacion.IconFont =  FontAwesome.Sharp.IconFont.Auto ;
+			btnLockCotizacion.IconSize =  30 ;
+			btnLockCotizacion.Location =  new Point(187, 21) ;
+			btnLockCotizacion.Name =  "btnLockCotizacion" ;
+			btnLockCotizacion.Size =  new Size(52, 47) ;
+			btnLockCotizacion.TabIndex =  30 ;
+			btnLockCotizacion.UseVisualStyleBackColor =  true ;
+			btnLockCotizacion.Click +=  btnLockCotizacion_Click ;
 			// 
 			// Cotizador
 			// 
@@ -290,10 +320,10 @@
 			AutoScaleMode =  AutoScaleMode.Font ;
 			BackColor =  Color.LightGray ;
 			ClientSize =  new Size(642, 192) ;
-			Controls.Add(button4);
-			Controls.Add(button3);
-			Controls.Add(button2);
-			Controls.Add(button1);
+			Controls.Add(btnLockCotizacion);
+			Controls.Add(btnConvertPesos);
+			Controls.Add(btnConvertDolares);
+			Controls.Add(btnConvertEuros);
 			Controls.Add(label7);
 			Controls.Add(label6);
 			Controls.Add(label5);
@@ -321,6 +351,7 @@
 			MaximizeBox =  false ;
 			Name =  "Cotizador" ;
 			Text =  "Cotizador" ;
+			KeyPress +=  Cotizador_KeyPress ;
 			ResumeLayout(false);
 			PerformLayout();
 		}
@@ -350,9 +381,9 @@
 		private Label label5;
 		private Label label6;
 		private Label label7;
-		private Button button1;
-		private Button button2;
-		private Button button3;
-		private Button button4;
+		private Button btnConvertEuros;
+		private Button btnConvertDolares;
+		private Button btnConvertPesos;
+		private FontAwesome.Sharp.IconButton btnLockCotizacion;
 	}
 }

@@ -1,0 +1,18 @@
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30 Consola\obj\Debug\net6.0\Ejercicio 30 Consola.csproj.AssemblyReference.cache
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30 Consola\obj\Debug\net6.0\Ejercicio 30 Consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30 Consola\obj\Debug\net6.0\Ejercicio 30 Consola.AssemblyInfoInputs.cache
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30 Consola\obj\Debug\net6.0\Ejercicio 30 Consola.AssemblyInfo.cs
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30 Consola\obj\Debug\net6.0\Ejercicio 30 Consola.csproj.CoreCompileInputs.cache
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30 Consola\bin\Debug\net6.0\Ejercicio 30 Consola.exe
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30 Consola\bin\Debug\net6.0\Ejercicio 30 Consola.deps.json
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30 Consola\bin\Debug\net6.0\Ejercicio 30 Consola.runtimeconfig.json
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30 Consola\bin\Debug\net6.0\Ejercicio 30 Consola.dll
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30 Consola\bin\Debug\net6.0\Ejercicio 30 Consola.pdb
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30 Consola\bin\Debug\net6.0\Ejercicio 30.dll
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30 Consola\bin\Debug\net6.0\Ejercicio 30.pdb
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30 Consola\obj\Debug\net6.0\Ejercicio 30 Consola.csproj.CopyComplete
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30 Consola\obj\Debug\net6.0\Ejercicio 30 Consola.dll
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30 Consola\obj\Debug\net6.0\refint\Ejercicio 30 Consola.dll
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30 Consola\obj\Debug\net6.0\Ejercicio 30 Consola.pdb
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30 Consola\obj\Debug\net6.0\Ejercicio 30 Consola.genruntimeconfig.cache
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30 Consola\obj\Debug\net6.0\ref\Ejercicio 30 Consola.dll

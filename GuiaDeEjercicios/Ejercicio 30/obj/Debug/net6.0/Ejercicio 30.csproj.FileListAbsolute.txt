@@ -1,0 +1,12 @@
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30\obj\Debug\net6.0\Ejercicio 30.csproj.AssemblyReference.cache
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30\obj\Debug\net6.0\Ejercicio 30.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30\obj\Debug\net6.0\Ejercicio 30.AssemblyInfoInputs.cache
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30\obj\Debug\net6.0\Ejercicio 30.AssemblyInfo.cs
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30\obj\Debug\net6.0\Ejercicio 30.csproj.CoreCompileInputs.cache
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30\bin\Debug\net6.0\Ejercicio 30.deps.json
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30\bin\Debug\net6.0\Ejercicio 30.dll
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30\bin\Debug\net6.0\Ejercicio 30.pdb
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30\obj\Debug\net6.0\Ejercicio 30.dll
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30\obj\Debug\net6.0\refint\Ejercicio 30.dll
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30\obj\Debug\net6.0\Ejercicio 30.pdb
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio 30\obj\Debug\net6.0\ref\Ejercicio 30.dll
