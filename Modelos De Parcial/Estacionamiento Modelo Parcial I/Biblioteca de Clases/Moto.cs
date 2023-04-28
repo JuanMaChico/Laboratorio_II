@@ -10,59 +10,59 @@ namespace Biblioteca_de_Clases
 	public class Moto : Vehiculo
 	{
 		private ETipo tipo;
-		private double valorHora;
+		private static double valorHora;
 
-		public double CostoEstadia
+		public override double CostoEstadia
+		{
+			get => this.CargoDeEstacionamiento();
+		}
+		public override string Descripcion
 		{
 			get
 			{
-				return 0;
+				return this.tipo.ToString();
 			}
 		}
-		public string Descripcion
-		{
-			get
-			{
-				return " ";
-			}
-		}
-		public double ValorHora
+		public static double ValorHora
 		{
 			set
 			{
-				this.valorHora = value;
+				if(value > 0 )
+				{
+					valorHora = value;
+				}
 			}
 		}
 
-		protected double CargoDeEstacionamiento()
+		protected new double CargoDeEstacionamiento()
 		{
-			return 0;
+			return base.CargoDeEstacionamiento() * valorHora;
 		}
 
 		protected string MostrarDatos()
 		{
-			return " ";
+			return $"****MOTO*****\n-{Patente}";
 		}
 
-		private Moto()
+		static Moto()
 		{
-
+			ValorHora = 100;
 		}
-		public Moto(string patente, DateTime horaIngreso, ETipo tipo)
+		public Moto(string patente, DateTime horaIngreso, ETipo tipo) : base(patente, horaIngreso)
 		{
 
 		}
 
 		public override string ToString()
 		{
-			return tipo.ToString();
+			return MostrarDatos();
+		}
+		public enum ETipo
+		{
+			Ciclomotor,
+			Scooter,
+			Sport
 		}
 	}
 
-	public enum ETipo
-	{
-		Ciclomotor,
-		Scooter,
-		Sport
-	}
 }

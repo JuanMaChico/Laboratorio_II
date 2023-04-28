@@ -11,41 +11,48 @@ namespace Biblioteca_de_Clases
 		private string marca;
 		private static double valorHora;
 
-		public double CostoEstadia
+
+		public override string Descripcion
 		{
-			get => CostoEstadia;
+			get => this.marca;
 		}
-		public double Descripcion
+		public static double ValorHora
 		{
-			get => Descripcion;
+			set 
+			{
+				if(value > 0 )
+				{
+					valorHora = value;
+				}
+			}
 		}
-		public double ValorHora
+		public override double CostoEstadia
 		{
-			set => valorHora = value;
+			get => this.CargoDeEstacionamiento();
 		}
 
 		static Automovil()
 		{
 			valorHora = 120;
 		}
-		public Automovil(string patente, DateTime horaIngreso, string marca) : base(horaIngreso, patente) 
+		public Automovil(string patente, DateTime horaIngreso, string marca) : base(patente, horaIngreso) 
 		{
 			this.marca = marca;
 		}
 
-		protected double CargoDeEstacionamiento()
+		protected new double CargoDeEstacionamiento()
 		{
-			return 0;
+			return base.CargoDeEstacionamiento() * valorHora;
 		}
 
-		protected string MostrarDatos()
+		protected new string MostrarDatos()
 		{
-			return "";
+			return $"****AUTOMOVIL*****\n-{Patente}";
 		}
 
 		public override string ToString()
 		{
-			return "";
+			return MostrarDatos();
 		}
 
 

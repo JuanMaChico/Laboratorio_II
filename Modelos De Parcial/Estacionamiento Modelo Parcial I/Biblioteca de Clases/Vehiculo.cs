@@ -17,7 +17,7 @@
 		{
 			get;
 		}
-		public abstract double Descripcion
+		public abstract string Descripcion
 		{
 			get;
 		}
@@ -91,14 +91,14 @@
 		{
 			return obj is not null && ( ( Vehiculo )obj ).Patente == this.Patente;
 		}
+		public enum EVehiculos
+		{
+			Automovil,
+			Moto
+		}
 
 	}
 
-	public enum EVehiculo
-	{
-		Automovil,
-		Moto
-	}
 
 
 }
