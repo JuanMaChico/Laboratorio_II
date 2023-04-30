@@ -45,10 +45,7 @@
 
 		public string Patente
 		{
-			get
-			{
-				return patente;
-			}
+			get => patente;
 			set
 			{
 				if( ValidarPatente(value) )
@@ -87,10 +84,16 @@
 			return !( v1 == v2 );
 		}
 
-		public override bool Equals(object? obj)
+		//public override bool Equals(object? obj)
+		//{
+		//	return obj is not null && ( ( Vehiculo )obj ).Patente == this.Patente;
+		//}
+
+		public override string ToString()
 		{
-			return obj is not null && ( ( Vehiculo )obj ).Patente == this.Patente;
+			return MostrarDatos();
 		}
+
 		public enum EVehiculos
 		{
 			Automovil,

@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Biblioteca de Clases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Biblioteca de Clases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Biblioteca de Clases.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Biblioteca de Clases/1.0.0": {
+      "type": "project",
+      "path": "../Biblioteca de Clases/Biblioteca de Clases.csproj",
+      "msbuildProject": "../Biblioteca de Clases/Biblioteca de Clases.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Biblioteca de Clases >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\juanm\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\juanm\\Documents\\Proyectos Freelances [CODE]\\UTN-2023\\Laboratorio_II\\Modelos De Parcial\\Estacionamiento Modelo Parcial I\\FrmEstacionamiendo\\FrmEstacionamiendo.csproj",
+      "projectName": "FrmEstacionamiendo",
+      "projectPath": "C:\\Users\\juanm\\Documents\\Proyectos Freelances [CODE]\\UTN-2023\\Laboratorio_II\\Modelos De Parcial\\Estacionamiento Modelo Parcial I\\FrmEstacionamiendo\\FrmEstacionamiendo.csproj",
+      "packagesPath": "C:\\Users\\juanm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\juanm\\Documents\\Proyectos Freelances [CODE]\\UTN-2023\\Laboratorio_II\\Modelos De Parcial\\Estacionamiento Modelo Parcial I\\FrmEstacionamiendo\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\juanm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\juanm\\Documents\\Proyectos Freelances [CODE]\\UTN-2023\\Laboratorio_II\\Modelos De Parcial\\Estacionamiento Modelo Parcial I\\Biblioteca de Clases\\Biblioteca de Clases.csproj": {
+              "projectPath": "C:\\Users\\juanm\\Documents\\Proyectos Freelances [CODE]\\UTN-2023\\Laboratorio_II\\Modelos De Parcial\\Estacionamiento Modelo Parcial I\\Biblioteca de Clases\\Biblioteca de Clases.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-﻿namespace Estacionamientos
+﻿namespace ModeloDeParcialEstacionamiento
 {
 	partial class FrmEstacionamiento
 	{

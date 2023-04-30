@@ -1,10 +1,10 @@
 using Biblioteca_de_Clases;
-namespace Estacionamientos
+namespace ModeloDeParcialEstacionamiento
 {
 	public partial class FrmEstacionamiento : Form
 	{
 
-		private Estacionamiento estacionamiento;
+		private static Estacionamiento estacionamiento;
 
 		public FrmEstacionamiento()
 		{
@@ -16,7 +16,7 @@ namespace Estacionamientos
 		{
 			this.cmbTipoVehiculo.DataSource = Enum.GetValues(typeof(Vehiculo.EVehiculos));
 			this.cmbTipoMoto.DataSource = Enum.GetValues(typeof(Moto.ETipo));
-			this.estacionamineto = Estacionamiento.GetEstacionamiento("Nombre del Alumno",20);
+			this.estacionamiento = Estacionamiento.GetEstacionamiento("Nombre del Alumno",20);
 			this.txtNombreEstacionamiento.Text = this.estacionamiento.Nombre;
 		}
 	}

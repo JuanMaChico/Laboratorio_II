@@ -1,0 +1,12 @@
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Estacionamiento Modelo Parcial I\Biblioteca de Clases\bin\Debug\net6.0\Biblioteca de Clases.deps.json
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Estacionamiento Modelo Parcial I\Biblioteca de Clases\bin\Debug\net6.0\Biblioteca de Clases.dll
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Estacionamiento Modelo Parcial I\Biblioteca de Clases\bin\Debug\net6.0\Biblioteca de Clases.pdb
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Estacionamiento Modelo Parcial I\Biblioteca de Clases\obj\Debug\net6.0\Biblioteca de Clases.csproj.AssemblyReference.cache
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Estacionamiento Modelo Parcial I\Biblioteca de Clases\obj\Debug\net6.0\Biblioteca de Clases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Estacionamiento Modelo Parcial I\Biblioteca de Clases\obj\Debug\net6.0\Biblioteca de Clases.AssemblyInfoInputs.cache
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Estacionamiento Modelo Parcial I\Biblioteca de Clases\obj\Debug\net6.0\Biblioteca de Clases.AssemblyInfo.cs
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Estacionamiento Modelo Parcial I\Biblioteca de Clases\obj\Debug\net6.0\Biblioteca de Clases.csproj.CoreCompileInputs.cache
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Estacionamiento Modelo Parcial I\Biblioteca de Clases\obj\Debug\net6.0\Biblioteca de Clases.dll
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Estacionamiento Modelo Parcial I\Biblioteca de Clases\obj\Debug\net6.0\refint\Biblioteca de Clases.dll
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Estacionamiento Modelo Parcial I\Biblioteca de Clases\obj\Debug\net6.0\Biblioteca de Clases.pdb
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Estacionamiento Modelo Parcial I\Biblioteca de Clases\obj\Debug\net6.0\ref\Biblioteca de Clases.dll

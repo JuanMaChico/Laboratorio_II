@@ -74,10 +74,26 @@ namespace Biblioteca_de_Clases
 		{
 			if( e == v )
 			{
+				v.HoraEgreso = DateTime.Now;
 				e.listadoVehiculos.Remove(v);
 				return true;
 			}
 			return false;
+		}
+
+		public override bool Equals(object? obj)
+		{
+			return obj is Estacionamiento && (Estacionamiento)obj == this;
+		}
+
+		public override int GetHashCode()
+		{
+			return base.GetHashCode();
+		}
+
+		public override string ToString()
+		{
+			return "Estacionamiento";
 		}
 
 	}

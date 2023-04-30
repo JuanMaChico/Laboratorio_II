@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Biblioteca_de_Clases
 {
-	internal class Automovil : Vehiculo
+	public class Automovil : Vehiculo
 	{
 		private string marca;
 		private static double valorHora;
@@ -47,7 +47,7 @@ namespace Biblioteca_de_Clases
 
 		protected new string MostrarDatos()
 		{
-			return $"****AUTOMOVIL*****\n-{Patente}";
+			return $"****AUTOMOVIL***** - {Patente}";
 		}
 
 		public override string ToString()
