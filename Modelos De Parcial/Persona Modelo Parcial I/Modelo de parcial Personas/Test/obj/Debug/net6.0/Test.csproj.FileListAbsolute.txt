@@ -1,0 +1,5 @@
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Persona Modelo Parcial I\Modelo de parcial Personas\Test\obj\Debug\net6.0\Test.csproj.AssemblyReference.cache
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Persona Modelo Parcial I\Modelo de parcial Personas\Test\obj\Debug\net6.0\Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Persona Modelo Parcial I\Modelo de parcial Personas\Test\obj\Debug\net6.0\Test.AssemblyInfoInputs.cache
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Persona Modelo Parcial I\Modelo de parcial Personas\Test\obj\Debug\net6.0\Test.AssemblyInfo.cs
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Persona Modelo Parcial I\Modelo de parcial Personas\Test\obj\Debug\net6.0\Test.csproj.CoreCompileInputs.cache
