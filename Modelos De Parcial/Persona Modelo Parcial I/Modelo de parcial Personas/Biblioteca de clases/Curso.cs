@@ -13,44 +13,45 @@ namespace Biblioteca_de_clases
 		private EMateria materia;
 		private Persona profesor;
 
-		public Curso(EMateria materia , Profesor profesor)
+		public Curso(EMateria materia, Profesor profesor)
 		{
-
+			this.materia = profesor.Materia;
+			this.profesor = profesor;
 		}
 
 		public void EvaluarAlumnos(Curso curso)
 		{
-			
+
 		}
 
 		public string InscribirAlumno(Alumno alumno)
 		{
-		
+
 		}
 
 		public string MostrarInformacionDelCurso(Curso curso)
 		{
-		
+
 		}
 
-		public static bool operator ==(Curso curso ,Alumno alumno)
+		public static bool operator ==(Curso curso, Alumno alumno)
 		{
-			return true;
+			return curso.Alumnos.Contains(alumno);
 		}
-		public static bool operator !=(Curso curso ,Alumno alumno)
+		public static bool operator !=(Curso curso, Alumno alumno)
 		{
-			return !true;
+			return !(curso == alumno);
 		}
 
 
 		public List<Persona> Alumnos
 		{
-			get;
+			get => alumnos;
 		}
 
 		public Profesor Profesor
 		{
-			get; set; 
+			get; set;
 		}
 
 
