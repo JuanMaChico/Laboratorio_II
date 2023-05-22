@@ -102,7 +102,7 @@ namespace BibliotecaDeClases
 
 		public override string Informacion
 		{
-			get => $"Alumno: {base.ToString()}";
+			get => $"{this.ToString()}";
 		}
 
 		public List<int> this[EMateria materia]

@@ -32,9 +32,9 @@ namespace BibliotecaDeClases
 		protected virtual string MostrarDatos()
 		{
 			StringBuilder retorno = new StringBuilder();
-			retorno.Append(dni);
-			retorno.Append(apellido);
-			retorno.Append(nombre);
+			retorno.Append(this.dni);
+			retorno.Append(this.apellido);
+			retorno.Append(this.nombre);
 			return retorno.ToString();
 		}
 
