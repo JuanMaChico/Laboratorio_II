@@ -83,7 +83,7 @@ namespace Biblioteca_de_Clases
 
 		public override bool Equals(object? obj)
 		{
-			return obj is Estacionamiento && (Estacionamiento)obj == this;
+			return obj is not null && obj is Estacionamiento && (Estacionamiento)obj == this;
 		}
 
 		public override int GetHashCode()

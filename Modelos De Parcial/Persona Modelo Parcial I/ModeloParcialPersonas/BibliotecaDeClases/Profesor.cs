@@ -23,7 +23,7 @@ namespace BibliotecaDeClases
 
 		public Profesor(int dni, string email, EMateria materiaAsignada) : this(dni, email)
 		{
-
+			this.materiaAsignada = materiaAsignada;
 		}
 
 		protected override string MostrarDatos()
@@ -44,8 +44,8 @@ namespace BibliotecaDeClases
 
 		public EMateria Materia
 		{
-			get;
-			set;
+			get => this.materiaAsignada;
+			set => this.Materia = value;
 		}
 
 		public override string ToString()

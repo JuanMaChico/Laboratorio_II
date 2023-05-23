@@ -12,6 +12,8 @@ namespace BibliotecaDeClases
 		private string legajo;
 		private Dictionary<EMateria, List<int>> materiasAsignadas;
 
+
+		#region Constructores
 		private Alumno(int dni) : base(dni)
 		{
 			this.materiasAsignadas = new Dictionary<EMateria, List<int>>();
@@ -20,6 +22,12 @@ namespace BibliotecaDeClases
 		public Alumno(int dni, string legajo): this (dni)
 		{
 			this.legajo = legajo;
+		}
+		#endregion
+
+		public override string Informacion
+		{
+			get => $"{this.ToString()}";
 		}
 
 		public static implicit operator Alumno(string dni)
@@ -100,10 +108,7 @@ namespace BibliotecaDeClases
 			return $"Alumno - {this.legajo}";
 		}
 
-		public override string Informacion
-		{
-			get => $"{this.ToString()}";
-		}
+
 
 		public List<int> this[EMateria materia]
 		{

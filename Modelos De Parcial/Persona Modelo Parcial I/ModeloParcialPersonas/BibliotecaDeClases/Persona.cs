@@ -4,8 +4,8 @@ namespace BibliotecaDeClases
 {
 	public abstract class Persona
 	{
-		private string? apellido;
-		private string? nombre;
+		private string apellido;
+		private string nombre;
 		protected int dni;
 
 		protected Persona(int dni)
@@ -24,10 +24,10 @@ namespace BibliotecaDeClases
 			set => nombre = value;
 		}
 
-		public abstract string Informacion
-		{
-			get;
-		}
+		/// <summary>
+		/// propiedad abstractam, se implementa en clas clases derivadas
+		/// </summary>
+		public abstract string Informacion { get; }
 
 		protected virtual string MostrarDatos()
 		{
