@@ -14,30 +14,28 @@ namespace Biblioteca_de_Clases
 		#endregion
 
 		#region Constructores
-		protected Comida(string nombre)
+		protected Comida(string nombre) : this(nombre, new List<EIngredientes>())
 		{
-			this.nombre = nombre;
-			this.ingredientes= new List<EIngredientes>();
 		}
 
-		protected Comida(string nombre, List<EIngredientes> ingredientes) : this (nombre)
+		protected Comida(string nombre, List<EIngredientes> ingredientes)
 		{
+			this.nombre = nombre;
 			this.ingredientes = ingredientes;
-
 		}
 		#endregion
 
 		#region Porpiedades
-		public double Costos
-		{ 
-			get => this.CalcularCostos(); 
-		}		
-		public string Descripcion
-		{ 
-			get => this.MostrarDatos(); 
-		}		
+		public virtual double Costos
+		{
+			get => this.CalcularCostos();
+		}
+		public virtual string Descripcion
+		{
+			get => this.MostrarDatos();
+		}
 		public string Nombre
-		{ 
+		{
 			get => nombre;
 			set => this.nombre = value;
 		}
@@ -57,43 +55,47 @@ namespace Biblioteca_de_Clases
 		protected virtual string MostrarDatos()
 		{
 			StringBuilder retorno = new StringBuilder();
-			retorno.Append($"Nombre: {this.Nombre}");
-			retorno.Append($"Costo: {this.Costos}");
-			retorno.Append($" - Ingredientes - ");
-            foreach (EIngredientes i in this.ingredientes)
-            {
-				retorno.Append(i);
-            }
-            return retorno.ToString();
+			retorno.Append($"\nNombre: {this.Nombre}");
+			retorno.Append($"\nCosto: {this.Costos}");
+			retorno.Append($"\n-Ingredientes-\n");
+			foreach( EIngredientes i in this.ingredientes )
+			{
+				retorno.Append($"\n-{i}");
+			}
+			return retorno.ToString();
 		}
 
 		#region sobrecargas
 
 		public static bool operator ==(Comida c, EIngredientes ingrediente)
 		{
-            foreach (EIngredientes i in c.ingredientes)
-            {
-                if (i == ingrediente)
-                {
+
+			//return c.ingredientes.Exists(e => e == ingrediente);
+
+			foreach( EIngredientes i in c.ingredientes )
+			{
+				if( i == ingrediente )
+				{
 					return true;
-                }
-            }
-            return false;
+				}
+			}
+			return false;
 		}
 
 		public static bool operator !=(Comida c, EIngredientes ingrediente)
 		{
-			return !(c == ingrediente);
+			return !( c == ingrediente );
 		}
 
 		public static string operator +(Comida c, EIngredientes ingrediente)
 		{
-			if(c != ingrediente )
-			{
-				c.ingredientes.Add( ingrediente );
-				return $"Se agrego {ingrediente}";
-			}
-			return $"No se pudo agregar {ingrediente}";
+			//if( c != ingrediente )
+			//{
+			//	c.ingredientes.Add(ingrediente);
+			//	return $"Se agrego {ingrediente}";
+			//}
+			//return $"No se pudo agregar {ingrediente}";
+			return c.AgregarIngredientes( ingrediente );
 		}
 
 		#endregion
@@ -102,12 +104,14 @@ namespace Biblioteca_de_Clases
 
 		public override bool Equals(object? obj)
 		{
-			if(obj != null && obj is Comida)
+			if( obj != null && obj is Comida )
 			{
-				Comida c = (Comida)obj;
+				Comida c = ( Comida )obj;
 				return c.Nombre == this.Nombre;
 			}
 			return false;
+
+			//return obj is not null && obj is Comida && ((Comida)obj).Nombre == this.Nombre;
 		}
 
 		public override int GetHashCode()
@@ -130,7 +134,7 @@ namespace Biblioteca_de_Clases
 			TOMATE = 9,
 			JAMON = 12,
 			HUEVO = 13,
-			PANCETA = 15 
+			PANCETA = 15
 		}
 		#endregion
 	}

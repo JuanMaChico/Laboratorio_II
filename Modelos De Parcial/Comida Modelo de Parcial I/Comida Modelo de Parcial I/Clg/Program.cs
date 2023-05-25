@@ -6,7 +6,7 @@ namespace Clg
 	{
 		static void Main(string[] args)
 		{
-			Cliente c = ( Cliente )12345678;
+			Cliente c = 12345678;
 			Comida h = new Hamburguesa("Doble cuarto de libra", true);
 			Console.WriteLine(h + Comida.EIngredientes.PANCETA);
 			Console.WriteLine(h + Comida.EIngredientes.ADHERESO);

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 
 namespace Biblioteca_de_Clases
 {
@@ -14,7 +9,7 @@ namespace Biblioteca_de_Clases
 
 		static Hamburguesa()
 		{
-			costoBase = 1500;
+			Hamburguesa.costoBase = 1500;
 		}
 
 		public Hamburguesa(string nombre) : base(nombre)
@@ -29,11 +24,19 @@ namespace Biblioteca_de_Clases
 
 		protected override string AgregarIngredientes(EIngredientes ingredientes)
 		{
-			StringBuilder retorno = new StringBuilder();
-			retorno.AppendLine(this + ingredientes);
-			retorno.AppendLine("a su Hamburguesa");
+			//StringBuilder retorno = new StringBuilder();
+			//retorno.AppendLine(this + ingredientes);
+			//retorno.AppendLine("a su Hamburguesa");
 
-			return retorno.ToString();
+			//return retorno.ToString();
+
+			if(this != ingredientes )
+			{
+				base.ingredientes.Add(ingredientes);
+				return $"Se agrego {ingredientes} a su hamburguesa";
+			}
+			return $"No se pudo agregar {ingredientes} a su hamburguesa";
+
 		}
 
 		protected override double CalcularCostos()
@@ -52,15 +55,18 @@ namespace Biblioteca_de_Clases
 
 		public override string ToString()
 		{
-			return esDoble ? "Hamburguesa – Doble" : "Hamburguesa – Simple";
+			return $"Hamburguesa {(this.esDoble ? "Doble" : "Simple")}";
 		}
 
 		protected override string MostrarDatos()
 		{
-			StringBuilder retorno = new StringBuilder();
-			retorno.Append(base.MostrarDatos());
-			retorno.Append(this.ToString());
-			return retorno.ToString();
+			//StringBuilder retorno = new StringBuilder();
+			//retorno.Append(base.MostrarDatos());
+			//retorno.Append(this.ToString());
+			//return retorno.ToString();
+
+			return $"{this.ToString()}\n{base.MostrarDatos()}";
+
 		}
 
 
