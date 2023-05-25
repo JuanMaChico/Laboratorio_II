@@ -16,25 +16,66 @@ namespace Biblioteca_de_Clases
 			tipo = ETipo.PAPAS_FRITAS;
 		}
 
-		public Guarnicion(ETipo t)
+		public Guarnicion(ETipo t): this()
 		{
-			tipo = t;
+			this.tipo = t;
 		}
 
 		protected override string AgregarIngredientes(EIngredientes ingredientes)
 		{
-			throw new NotImplementedException();
+			StringBuilder retorno = new StringBuilder();
+			retorno.AppendLine(this + ingredientes);
+			retorno.AppendLine("a su Guarnicion");
+			return retorno.ToString();
 		}
 
 		protected override double CalcularCostos()
 		{
-			throw new NotImplementedException();
+			double costo = ( int )this.tipo;
+			foreach( EIngredientes i in this.ingredientes )
+			{
+				costo = costo + ( costo * ( int )i );
+			}
+			return costo;
 		}
 
 		protected override string MostrarDatos()
 		{
-			return "";
+			StringBuilder retorno = new StringBuilder();
+			retorno.Append(base.MostrarDatos());
+			retorno.Append(this.ToString());
+			return retorno.ToString();
 		}
+
+		public static bool operator ==(Guarnicion guarnicion, EIngredientes ingrediente)
+		{
+            foreach (EIngredientes i in guarnicion.ingredientes)
+            {
+				switch( i )
+				{
+					case EIngredientes.PANCETA:
+					case EIngredientes.QUESO:
+					case EIngredientes.ADHERESO:
+						return true;
+				}
+            }
+			return false;
+        }
+		public static bool operator !=(Guarnicion guarnicion, EIngredientes ingrediente)
+		{
+			return !(guarnicion == ingrediente);
+		}
+
+		public override string ToString()
+		{
+			return $"Guarnicion de tipo {this.tipo}";
+		}
+
+		public static explicit operator Guarnicion(ETipo tipo )
+		{
+			return new Guarnicion(tipo) ;
+		}
+
 
 		public enum ETipo
 		{

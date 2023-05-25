@@ -17,6 +17,7 @@ namespace Biblioteca_de_Clases
 		protected Comida(string nombre)
 		{
 			this.nombre = nombre;
+			this.ingredientes= new List<EIngredientes>();
 		}
 
 		protected Comida(string nombre, List<EIngredientes> ingredientes) : this (nombre)
@@ -90,9 +91,9 @@ namespace Biblioteca_de_Clases
 			if(c != ingrediente )
 			{
 				c.ingredientes.Add( ingrediente );
-				return $"Se agrego {ingrediente} a su hamburguesa";
+				return $"Se agrego {ingrediente}";
 			}
-			return $"No se pudo agregar {ingrediente} a su hamburguesa";
+			return $"No se pudo agregar {ingrediente}";
 		}
 
 		#endregion

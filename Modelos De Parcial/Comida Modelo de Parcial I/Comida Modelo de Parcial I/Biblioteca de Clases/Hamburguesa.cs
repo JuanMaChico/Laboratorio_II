@@ -29,7 +29,11 @@ namespace Biblioteca_de_Clases
 
 		protected override string AgregarIngredientes(EIngredientes ingredientes)
 		{
-			return this + ingredientes;
+			StringBuilder retorno = new StringBuilder();
+			retorno.AppendLine(this + ingredientes);
+			retorno.AppendLine("a su Hamburguesa");
+
+			return retorno.ToString();
 		}
 
 		protected override double CalcularCostos()

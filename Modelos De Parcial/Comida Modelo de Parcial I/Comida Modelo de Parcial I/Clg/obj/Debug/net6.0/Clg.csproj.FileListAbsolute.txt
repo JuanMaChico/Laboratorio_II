@@ -1,0 +1,18 @@
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Comida Modelo de Parcial I\Comida Modelo de Parcial I\Clg\bin\Debug\net6.0\Clg.exe
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Comida Modelo de Parcial I\Comida Modelo de Parcial I\Clg\bin\Debug\net6.0\Clg.deps.json
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Comida Modelo de Parcial I\Comida Modelo de Parcial I\Clg\bin\Debug\net6.0\Clg.runtimeconfig.json
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Comida Modelo de Parcial I\Comida Modelo de Parcial I\Clg\bin\Debug\net6.0\Clg.dll
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Comida Modelo de Parcial I\Comida Modelo de Parcial I\Clg\bin\Debug\net6.0\Clg.pdb
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Comida Modelo de Parcial I\Comida Modelo de Parcial I\Clg\bin\Debug\net6.0\Biblioteca de Clases.dll
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Comida Modelo de Parcial I\Comida Modelo de Parcial I\Clg\bin\Debug\net6.0\Biblioteca de Clases.pdb
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Comida Modelo de Parcial I\Comida Modelo de Parcial I\Clg\obj\Debug\net6.0\Clg.csproj.AssemblyReference.cache
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Comida Modelo de Parcial I\Comida Modelo de Parcial I\Clg\obj\Debug\net6.0\Clg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Comida Modelo de Parcial I\Comida Modelo de Parcial I\Clg\obj\Debug\net6.0\Clg.AssemblyInfoInputs.cache
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Comida Modelo de Parcial I\Comida Modelo de Parcial I\Clg\obj\Debug\net6.0\Clg.AssemblyInfo.cs
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Comida Modelo de Parcial I\Comida Modelo de Parcial I\Clg\obj\Debug\net6.0\Clg.csproj.CoreCompileInputs.cache
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Comida Modelo de Parcial I\Comida Modelo de Parcial I\Clg\obj\Debug\net6.0\Clg.csproj.CopyComplete
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Comida Modelo de Parcial I\Comida Modelo de Parcial I\Clg\obj\Debug\net6.0\Clg.dll
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Comida Modelo de Parcial I\Comida Modelo de Parcial I\Clg\obj\Debug\net6.0\refint\Clg.dll
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Comida Modelo de Parcial I\Comida Modelo de Parcial I\Clg\obj\Debug\net6.0\Clg.pdb
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Comida Modelo de Parcial I\Comida Modelo de Parcial I\Clg\obj\Debug\net6.0\Clg.genruntimeconfig.cache
+C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Modelos De Parcial\Comida Modelo de Parcial I\Comida Modelo de Parcial I\Clg\obj\Debug\net6.0\ref\Clg.dll
