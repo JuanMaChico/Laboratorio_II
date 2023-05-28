@@ -13,3 +13,21 @@ C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\Gui
 C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio Lanzar y Atrapar\ConsoleApp\obj\Debug\net6.0\ConsoleApp.pdb
 C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio Lanzar y Atrapar\ConsoleApp\obj\Debug\net6.0\ConsoleApp.genruntimeconfig.cache
 C:\Users\juanm\Documents\Proyectos Freelances [CODE]\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio Lanzar y Atrapar\ConsoleApp\obj\Debug\net6.0\ref\ConsoleApp.dll
+C:\Users\juanm\OneDrive\Documents\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio Lanzar y Atrapar\ConsoleApp\bin\Debug\net6.0\ConsoleApp.exe
+C:\Users\juanm\OneDrive\Documents\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio Lanzar y Atrapar\ConsoleApp\bin\Debug\net6.0\ConsoleApp.deps.json
+C:\Users\juanm\OneDrive\Documents\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio Lanzar y Atrapar\ConsoleApp\bin\Debug\net6.0\ConsoleApp.runtimeconfig.json
+C:\Users\juanm\OneDrive\Documents\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio Lanzar y Atrapar\ConsoleApp\bin\Debug\net6.0\ConsoleApp.dll
+C:\Users\juanm\OneDrive\Documents\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio Lanzar y Atrapar\ConsoleApp\bin\Debug\net6.0\ConsoleApp.pdb
+C:\Users\juanm\OneDrive\Documents\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio Lanzar y Atrapar\ConsoleApp\obj\Debug\net6.0\ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\juanm\OneDrive\Documents\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio Lanzar y Atrapar\ConsoleApp\obj\Debug\net6.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juanm\OneDrive\Documents\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio Lanzar y Atrapar\ConsoleApp\obj\Debug\net6.0\ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\juanm\OneDrive\Documents\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio Lanzar y Atrapar\ConsoleApp\obj\Debug\net6.0\ConsoleApp.AssemblyInfo.cs
+C:\Users\juanm\OneDrive\Documents\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio Lanzar y Atrapar\ConsoleApp\obj\Debug\net6.0\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\juanm\OneDrive\Documents\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio Lanzar y Atrapar\ConsoleApp\obj\Debug\net6.0\ConsoleApp.dll
+C:\Users\juanm\OneDrive\Documents\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio Lanzar y Atrapar\ConsoleApp\obj\Debug\net6.0\refint\ConsoleApp.dll
+C:\Users\juanm\OneDrive\Documents\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio Lanzar y Atrapar\ConsoleApp\obj\Debug\net6.0\ConsoleApp.pdb
+C:\Users\juanm\OneDrive\Documents\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio Lanzar y Atrapar\ConsoleApp\obj\Debug\net6.0\ConsoleApp.genruntimeconfig.cache
+C:\Users\juanm\OneDrive\Documents\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio Lanzar y Atrapar\ConsoleApp\obj\Debug\net6.0\ref\ConsoleApp.dll
+C:\Users\juanm\OneDrive\Documents\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio Lanzar y Atrapar\ConsoleApp\bin\Debug\net6.0\BibliotecaDeClases.dll
+C:\Users\juanm\OneDrive\Documents\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio Lanzar y Atrapar\ConsoleApp\bin\Debug\net6.0\BibliotecaDeClases.pdb
+C:\Users\juanm\OneDrive\Documents\UTN-2023\Laboratorio_II\GuiaDeEjercicios\Ejercicio Lanzar y Atrapar\ConsoleApp\obj\Debug\net6.0\ConsoleApp.csproj.CopyComplete

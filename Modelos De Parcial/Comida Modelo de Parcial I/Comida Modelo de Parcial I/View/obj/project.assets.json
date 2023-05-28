@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\juanm\\Documents\\Proyectos Freelances [CODE]\\UTN-2023\\Laboratorio_II\\Modelos De Parcial\\Comida Modelo de Parcial I\\Comida Modelo de Parcial I\\View\\View.csproj",
+      "projectUniqueName": "C:\\Users\\juanm\\OneDrive\\Documents\\UTN-2023\\Laboratorio_II\\Modelos De Parcial\\Comida Modelo de Parcial I\\Comida Modelo de Parcial I\\View\\View.csproj",
       "projectName": "View",
-      "projectPath": "C:\\Users\\juanm\\Documents\\Proyectos Freelances [CODE]\\UTN-2023\\Laboratorio_II\\Modelos De Parcial\\Comida Modelo de Parcial I\\Comida Modelo de Parcial I\\View\\View.csproj",
+      "projectPath": "C:\\Users\\juanm\\OneDrive\\Documents\\UTN-2023\\Laboratorio_II\\Modelos De Parcial\\Comida Modelo de Parcial I\\Comida Modelo de Parcial I\\View\\View.csproj",
       "packagesPath": "C:\\Users\\juanm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\juanm\\Documents\\Proyectos Freelances [CODE]\\UTN-2023\\Laboratorio_II\\Modelos De Parcial\\Comida Modelo de Parcial I\\Comida Modelo de Parcial I\\View\\obj\\",
+      "outputPath": "C:\\Users\\juanm\\OneDrive\\Documents\\UTN-2023\\Laboratorio_II\\Modelos De Parcial\\Comida Modelo de Parcial I\\Comida Modelo de Parcial I\\View\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\juanm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\juanm\\Documents\\Proyectos Freelances [CODE]\\UTN-2023\\Laboratorio_II\\Modelos De Parcial\\Comida Modelo de Parcial I\\Comida Modelo de Parcial I\\Biblioteca de Clases\\Biblioteca de Clases.csproj": {
-              "projectPath": "C:\\Users\\juanm\\Documents\\Proyectos Freelances [CODE]\\UTN-2023\\Laboratorio_II\\Modelos De Parcial\\Comida Modelo de Parcial I\\Comida Modelo de Parcial I\\Biblioteca de Clases\\Biblioteca de Clases.csproj"
+            "C:\\Users\\juanm\\OneDrive\\Documents\\UTN-2023\\Laboratorio_II\\Modelos De Parcial\\Comida Modelo de Parcial I\\Comida Modelo de Parcial I\\Biblioteca de Clases\\Biblioteca de Clases.csproj": {
+              "projectPath": "C:\\Users\\juanm\\OneDrive\\Documents\\UTN-2023\\Laboratorio_II\\Modelos De Parcial\\Comida Modelo de Parcial I\\Comida Modelo de Parcial I\\Biblioteca de Clases\\Biblioteca de Clases.csproj"
             }
           }
         }
