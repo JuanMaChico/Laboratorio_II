@@ -21,7 +21,7 @@ namespace Biblioteca_de_Clases
 		{
 			this.dni = dni;
 			this.menu = new List<Comida>();
-		}
+        }
 
 		public static Cliente GetCliente(int dni)
 		{
