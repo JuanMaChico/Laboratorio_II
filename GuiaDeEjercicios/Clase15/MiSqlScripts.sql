@@ -1,0 +1,6 @@
+use [Clase 15];
+
+-- INSERT INTO SECTORES (DESCRIPCION) VALUES ('Programacion');
+
+-- INSERT INTO EMPLEADOS (NOMBRE, APELLIDO, ID_SECTOR) VALUES ('Juan', 'Perez',1);
+
